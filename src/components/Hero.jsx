@@ -140,7 +140,7 @@ export default function Hero() {
             <div className="road-dashes" />
             <div ref={trailRef} className="trail" />
             <div ref={ballRef} className="ball-wrap">
-              <img src="/ball.jpg" alt="football" className="ball-img" draggable="false" />
+              <img src={`${import.meta.env.BASE_URL}ball.jpg`} alt="football" className="ball-img" draggable="false" />
             </div>
           </div>
 
